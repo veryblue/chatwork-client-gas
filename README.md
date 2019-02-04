@@ -13,7 +13,7 @@ function _sendMessage() {
   // settings
   var api_token   = 'xxxxxxxxxxxxxxxxx';
   var room_id     = 123456789;
-  var message     = 'massage'
+  var message     = 'message'
   var cw = ChatWorkClient.factory({token: api_token});
   
   // post
